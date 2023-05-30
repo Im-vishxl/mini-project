@@ -1,8 +1,8 @@
 import React from 'react'
 
-function MenuItem({image, name, desc}) {
+function TurfItem({image, name, desc}) {
   return (
-    <div className="menuItem">
+    <div className="turfItem">
         <div style={{backgroundImage : `url(${image})`}}></div>
         <h1>{name}</h1>
         <p>{desc}</p>
@@ -10,4 +10,4 @@ function MenuItem({image, name, desc}) {
   )
 }
 
-export default MenuItem
+export default TurfItem

@@ -1,6 +1,6 @@
 import React from 'react'
-import { MenuList } from '../helpers/MenuList'
-import MenuItem from '../components/MenuItem'
+import { TurfList } from '../helpers/TurfList'
+import TurfItem from '../components/TurfItem'
 import Searchbar from '../components/Searchbar'
 import '../styles/Menu.css'
 import backimg from '../assets/background1.jpg'
@@ -12,13 +12,13 @@ function Menu() {
       <Searchbar placeholder="Enter a turf name" data={TurfData}/>
       <div className="menuList">
         { 
-          MenuList.map((menuItem, key)=>{
+          TurfList.map((turfItem, key)=>{
             return (
-              <MenuItem 
+              <TurfItem 
                 key={key}
-                image={menuItem.image} 
-                name={menuItem.name} 
-                desc={menuItem.desc} 
+                image={turfItem.image} 
+                name={turfItem.name} 
+                desc={turfItem.desc} 
               />) 
             }
           )

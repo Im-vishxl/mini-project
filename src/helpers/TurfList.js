@@ -5,7 +5,7 @@ import turf4 from "../assets/turf4.jpg"
 import turf5 from "../assets/turf5.jpg"
 import turf6 from "../assets/turf6.jpg"
 
-export const MenuList = [
+export const TurfList = [
     {
         name:"TNM Sports Hub",
         image: turf1,
