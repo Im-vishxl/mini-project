@@ -9,7 +9,7 @@ import '../styles/Login.css'
 function Login() {
   return (
     <div className="login" style={{backgroundImage:`url(${Bgimg})`}}>
-        <div className="headerContainer">Log in as</div>
+        <div className="login-as">Log in as</div>
         <div className="centerContainer">
             <div className="player">
                 <img src={leftimg} className="playerimg" />

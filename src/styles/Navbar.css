@@ -14,10 +14,16 @@
     padding-left: 150px;
     
   }
-  .navbar .leftSide .name {
-    color: rgb(255, 255, 255);
+  .navbar .blue{
+    color: rgb(125, 233, 255);
     font-size: 53px;
-    font-weight: bolder;
+    text-transform: solid;
+  }
+  .navbar .lock {
+    color: white;
+    font-size: 53px;
+    text-transform: solid;
+
   }
   
   .navbar .leftSide img {
@@ -57,7 +63,11 @@
     display: none;
   }
 
-  .navbar #open .name {
+  .navbar #open .blue {
+    display: none;
+  }
+
+  .navbar #open .lock {
     display: none;
   }
   
@@ -110,4 +120,6 @@
     .hiddenLinks {
       display: none;
     }
+
+    
   }
