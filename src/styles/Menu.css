@@ -1,3 +1,6 @@
+
+
+
 .menu {
     width: 100%;
     height: auto;
@@ -17,6 +20,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
+    text-decoration: none;
   }
   
   /* MENU ITEM STYLING */
@@ -28,11 +32,23 @@
     margin: 20px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     color: white;
+    text-decoration: none;
   }
   .turfItem:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in;
     cursor: pointer;
+    
+  }
+  .turfItem.name:hover {
+    color: white;
+  }
+
+  .turfItem.linkk:visited{
+    color :white;
+  }
+  .turfItem.linkk:hover{
+    color: white;
   }
   
   .turfItem div {

@@ -1,0 +1,36 @@
+{
+    "name": "turfbooking-node-server-setup",
+    "version": "1.0.0",
+    "description": "CFT Admin Portal MEAN stack Server system",
+    "main": "api.js",
+    "proxy": "http://localhost:3001",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "rahul",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.4.0",
+        "body-parser": "^1.20.2",
+        "compression": "^1.6.2",
+        "connect-redis": "^3.2.0",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "ejs": "^2.5.2",
+        "express": "^4.14.0",
+        "express-session": "^1.14.2",
+        "fluent-ffmpeg": "^2.1.2",
+        "formidable": "^1.1.1",
+        "helmet": "^5.0.1",
+        "http": "0.0.0",
+        "jsonwebtoken": "^7.4.3",
+        "md5": "2.2.1",
+        "mysql": "^2.18.1",
+        "ng2-dragula": "^2.1.1",
+        "request": "^2.76.0",
+        "striptags": "^3.1.1",
+        "uuid4": "^1.1.4",
+        "winston": "^3.3.3",
+        "winston-daily-rotate-file": "^4.5.0"
+    }
+}

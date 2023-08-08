@@ -38,11 +38,16 @@ function Searchbar({placeholder, data}) {
         </div>
         {filteredData.length != 0 && (
             <div className="dataResult">
-                {filteredData.map((value, key) => {
-                    return (
-                    <p>{value.name}</p>
-                    ) 
-                })};
+                {
+                    filteredData.map((value, key) => {
+                        return (
+                        <p>{value.name}</p>
+                        ) 
+                    })
+                    
+                
+                };
+                
             </div>
         )}
     </div>

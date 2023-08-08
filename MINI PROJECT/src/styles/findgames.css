@@ -1,0 +1,65 @@
+.find {
+    width: 100%;
+    height: 105vh;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+}
+
+.container {
+    position : absolute;
+    display: flex;
+    flex-direction: column;
+    padding-left: 175px;
+    .gamelist {
+        /* width: 506px;
+        height: 80px; */
+        position: absolute;
+        top: 110px;
+        left: 90px;
+        
+        display: grid;
+        grid-gap: 3em;
+        grid-template-columns: 1fr ;
+        place-items: center;
+        .item {
+            color: rgb(0, 0, 0);
+            width: 506px;
+            height: 80px;
+            color: maroon;
+            cursor: pointer;
+            
+            background-color: beige;
+            border-radius: 14px;
+            .owner {
+                font-size: 25px;
+                position: relative;
+                top: 7px;
+                left: 7px;
+            }
+        }
+    }
+    .calendar{
+        position: relative;
+        left: 755px;
+        top: 30vh;
+    }
+}
+
+
+
+.turfname{
+    position: relative;
+    top: -46px;
+    left: -3px;
+    width : 50%;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin: 0;
+    color: white;
+    font-size: 60px;
+
+    
+}

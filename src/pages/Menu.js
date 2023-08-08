@@ -5,6 +5,9 @@ import Searchbar from '../components/Searchbar'
 import '../styles/Menu.css'
 import backimg from '../assets/background1.jpg'
 import TurfData from '../helpers/Data.json'
+import { NavLink } from 'react-router-dom'
+import Venue from '../components/Venue'
+import Venueselect from './Venueselect'
 
 function Menu() {
   return (
@@ -13,15 +16,32 @@ function Menu() {
       <div className="menuList">
         { 
           TurfList.map((turfItem, key)=>{
+            // const data = turfItem.name;
+            // console.log(data)
             return (
-              <TurfItem 
-                key={key}
-                image={turfItem.image} 
-                name={turfItem.name} 
-                desc={turfItem.desc} 
-              />) 
+              <div>
+                {/* <NavLink to="/booknow/venue"> */}
+                  <TurfItem 
+                    key={key}
+                    image={turfItem.image} 
+                    name={turfItem.name} 
+                    desc={turfItem.desc}
+                    
+                  />
+                  
+                {/* </NavLink> */}
+                
+              </div>
+              
+              
+              
+              
+              ) 
+              
             }
+            
           )
+          
         }
       </div>
     </div>

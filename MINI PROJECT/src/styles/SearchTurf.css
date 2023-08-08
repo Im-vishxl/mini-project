@@ -1,0 +1,126 @@
+/* Loading spinner styles */
+.loading-spinner {
+    border: 4px solid rgba(0, 0, 0, 0.3);
+    border-top: 4px solid #007bff; /* Set the color of the spinner */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    position: relative;
+    left: 350px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  /* .searchInput {
+    background-color: #27337A;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 18px;
+    padding: 15px;
+    height: 30px;
+    width: 330px;
+    
+} */
+
+.search input {
+    background-color: #27337A;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 18px;
+    padding: 15px;
+    height: 30px;
+    width: 330px;
+    position: relative;
+    top: 9pxn ;
+    left: 350px;
+}
+
+.search input::placeholder {
+    color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+.searchIcon {
+    height: 60px;
+    width: 50px;
+    color: white;
+    background-color: #27337A;
+    display: grid;
+    place-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.dataResult {
+    margin-top: 0px;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.dataResult::-webkit-scrollbar{
+    display: none;
+}
+
+.dataResult p {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-left: 10px;
+}
+
+#clearBtn {
+    cursor: pointer;
+}
+
+.container1 {
+    position : absolute;
+    display: flex;
+    flex-direction: column;
+    padding-left: 175px;
+    .gamelist1 {
+        /* width: 506px;
+        height: 80px; */
+        position: absolute;
+        top: -215px;
+        left: 45px;
+        
+        display: grid;
+        grid-gap: 3em;
+        grid-template-columns: 1fr ;
+        place-items: center;
+        .item {
+            color: rgb(0, 0, 0);
+            width: 506px;
+            height: 80px;
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+            
+            background-color: beige;
+            border-radius: 14px;
+            .owner {
+                font-size: 25px;
+                position: relative;
+                top: 7px;
+                left: 7px;
+            }
+        }
+    }
+}

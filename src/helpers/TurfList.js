@@ -17,7 +17,7 @@ export const TurfList = [
       desc: "One 5-a-side & one 7-a-side .One singles badminton court",
     },
     {
-      name: "KEO sports",
+      name: "KEO sports ",
       image: turf3,
       desc: "One 7-a-side turf & one 5-a-side football turf",
     },

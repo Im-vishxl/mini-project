@@ -15,19 +15,22 @@ function Navbar() {
             <img src={Logo} />
             <p className="blue">Blue</p><p className="lock">Lock</p>            
             <div className="hiddenLinks">
-                <Link to="/">Home</Link>
-                <Link to="/booknow">Book Now</Link>
-                <Link to="/login">Log In</Link>
-                <Link to="/about">About</Link>
-                <Link to="/contact">Contact</Link>
-            </div>
+                <Link to="/" className="nav_link">Home</Link>
+                <Link to="/booknow" className="nav_link">Book Now</Link>
+                <Link to="/login" className="nav_link">Log In</Link>
+                {/* <Link to="/findgames">Find games</Link> */}
+                <Link to="/about" className="nav_link">About</Link>
+                <Link to="/contact" className="nav_link">Contact</Link>
+            </div> 
         </div>
         <div className="rightSide">
-            <Link to="/">Home</Link>
-            <Link to="/booknow">Book Now</Link>
-            <Link to="/login">Log In</Link>
-            <Link to="/about">About</Link>
-            <Link to="/contact">Contact</Link>
+            <Link to="/"className="nav_link">Home</Link>
+            <Link to="/booknow" className="nav_link">Book Now</Link>
+            <Link to="/login" className="nav_link">Log In</Link>
+            <Link to="/findgames" className="nav_link">Find games</Link>
+            <Link to="/about" className="nav_link">About</Link>
+            <Link to="/contact" className="nav_link">Contact</Link>
+            
             <button onClick={toggleNavbar}> 
                 <ReorderIcon />
             </button>
