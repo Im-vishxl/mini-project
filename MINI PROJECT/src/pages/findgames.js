@@ -25,7 +25,7 @@ function findgames() {
         <div className="turfname">WIN ARENA</div>
         <div className="container">
             <div className="gamelist">
-                <div className="item"><div className="owner">A's team</div></div>
+                <div className="item"><div className="owner">A' s team</div></div>
                 <div className="item"><div className="owner">B's team</div></div>
                 <div className="item"><div className="owner">C's team</div></div>
                 <div className="item"><div className="owner">D's team</div></div>
